@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Care Exeter - Professional Home Care Services in Exeter | Personal Care at Home</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="True Care Exeter provides professional home care services in Exeter and surrounding areas. Personal care, companionship, medication management, and more. Contact us for personalized care at home.">
+    <meta name="keywords" content="home care Exeter, personal care services, elderly care Exeter, home health aide, companionship services, medication management, meal preparation, transportation services, Devon home care">
+    <meta name="author" content="True Care Exeter">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.truecareexeter.co.uk/">
+    <meta property="og:title" content="True Care Exeter - Professional Home Care Services">
+    <meta property="og:description" content="Compassionate home care services in Exeter. Personal care, companionship, and support tailored to your needs.">
+    <meta property="og:image" content="https://www.truecareexeter.co.uk/images/true-care-exeter-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.truecareexeter.co.uk/">
+    <meta property="twitter:title" content="True Care Exeter - Professional Home Care Services">
+    <meta property="twitter:description" content="Compassionate home care services in Exeter. Personal care, companionship, and support tailored to your needs.">
+    <meta property="twitter:image" content="https://www.truecareexeter.co.uk/images/true-care-exeter-twitter.jpg">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "True Care Exeter",
+        "alternateName": "True Care",
+        "description": "Professional home care services providing personal care, companionship, medication management, and support services in Exeter and surrounding areas.",
+        "url": "https://www.truecareexeter.co.uk",
+        "telephone": "07926725187",
+        "email": "mariajames@truecareexeter.co.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Exeter",
+            "addressRegion": "Devon",
+            "addressCountry": "UK"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "50.7184",
+            "longitude": "-3.5339"
+        },
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "50.7184",
+                "longitude": "-3.5339"
+            },
+            "geoRadius": "25000"
+        },
+        "serviceType": ["Home Care", "Personal Care", "Elderly Care", "Companionship Services", "Medication Management", "Meal Preparation", "Transportation Services"],
+        "priceRange": "Contact for pricing",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Home Care Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Personal Care Services",
+                        "description": "Assistance with daily activities including bathing, dressing, grooming, and mobility support"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Companionship Services",
+                        "description": "Emotional support, conversation, and social interaction to enhance quality of life"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Medication Management",
+                        "description": "Professional medication reminders and administration for health and safety"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.truecareexeter.co.uk/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #5a5a5a;
+            background: linear-gradient(135deg, #fef9f3 0%, #f8f4f0 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #d4a574;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #5a5a5a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: #d4a574;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: #d4a574;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            background: linear-gradient(135deg, #fef9f3 0%, #f0e6d6 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 165, 116, 0.1) 0%, transparent 70%);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(-20px, -20px) rotate(180deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #4a4a4a;
+            margin-bottom: 1rem;
+            font-weight: 300;
+            letter-spacing: -1px;
+            animation: slideInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #7a7a7a;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: slideInUp 1s ease 0.2s both;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4a574 0%, #c19660 100%);
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+            animation: slideInUp 1s ease 0.4s both;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 165, 116, 0.4);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4a4a4a;
+            margin-bottom: 3rem;
+            font-weight: 300;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, #fef9f3 0%, #f8f4f0 100%);
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(212, 165, 116, 0.2);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: #d4a574;
+            margin-bottom: 1rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #4a4a4a;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            color: #7a7a7a;
+            line-height: 1.8;
+        }
+
+        /* Contact Form Section */
+        .contact {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f0e6d6 0%, #e8ddd2 100%);
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #4a4a4a;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #f0f0f0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #fafafa;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #d4a574;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #d4a574 0%, #c19660 100%);
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(212, 165, 116, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background: #4a4a4a;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-info {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-info span {
+            color: #d4a574;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-container {
+                margin: 0 20px;
+                padding: 2rem;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* Success Message */
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            display: none;
+            border: 1px solid #c3e6cb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">True Care Exeter</div>
+            <ul class="nav-links">
+                <li><a href="#home" aria-label="Go to homepage">Home</a></li>
+                <li><a href="#services" aria-label="View our care services">Services</a></li>
+                <li><a href="#contact" aria-label="Contact us for consultation">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Home Care Services in Exeter</h1>
+                <p>Experience personalized home care services tailored to your needs and schedule. Serving Exeter and surrounding Devon areas with compassionate, professional care at home.</p>
+                <a href="#contact" class="cta-button" aria-label="Get your free home care consultation">Get Your Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Professional Home Care Services in Exeter</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">🏠</div>
+                    <h3>Personal Care Services</h3>
+                    <p>Professional assistance with daily activities including bathing, dressing, grooming, and mobility support in the comfort of your Exeter home.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">💊</div>
+                    <h3>Medication Management</h3>
+                    <p>Expert medication reminders and administration to ensure your health and safety with proper medication compliance and monitoring.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">🍽️</div>
+                    <h3>Meal Preparation</h3>
+                    <p>Nutritious meal planning and preparation tailored to your dietary needs and preferences for optimal health and wellbeing.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">🎨</div>
+                    <h3>Social Activities</h3>
+                    <p>Engaging recreational activities, hobby support, and social outings to keep you active and connected with your local Exeter community.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">❤️</div>
+                    <h3>Companionship Services</h3>
+                    <p>Providing emotional support, meaningful conversation, and social interaction to enhance quality of life and reduce isolation.</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">🚗</div>
+                    <h3>Transportation Services</h3>
+                    <p>Safe and reliable transportation to medical appointments, grocery shopping, and social activities throughout Exeter and Devon.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Start Your Care Journey Today</h2>
+            <div class="form-container">
+                <div class="success-message" id="successMessage">
+                    Thank you for your inquiry! We'll contact you within 24 hours to discuss your care needs.
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell us about your care needs</label>
+                        <textarea id="message" name="message" placeholder="Please describe the type of care services you're looking for, preferred schedule, and any specific requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Request Your Free Consultation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <span>📞 Call: 07926725187</span>
+                    <span>📧 Email: mariajames@truecareexeter.co.uk</span>
+                    <span>📍 Serving Exeter & Surrounding Areas</span>
+                </div>
+                <p>&copy; 2025 True Care Exeter. Caring for you, one family at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Form submission handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Create email body
+            const emailBody = `
+New Lead from True Care Exeter Website:
+
+Name: ${formData.name}
+Phone: ${formData.phone}
+Email: ${formData.email}
+Message: ${formData.message}
+
+This inquiry was submitted on ${new Date().toLocaleDateString()} at ${new Date().toLocaleTimeString()}.
+            `.trim();
+            
+            // Create mailto link
+            const mailtoLink = `mailto:mariajames@truecareexeter.co.uk?subject=New Care Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(emailBody)}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            document.getElementById('successMessage').style.display = 'block';
+            
+            // Reset form
+            this.reset();
+            
+            // Scroll to success message
+            document.getElementById('successMessage').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+            
+            console.log('Form submitted:', formData);
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.boxShadow = '0 2px 30px rgba(0, 0, 0, 0.15)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            }
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe service cards for animation
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
